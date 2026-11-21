@@ -6,6 +6,8 @@ authors:
     given-names: Marcel
     orcid: "https://orcid.org/0009-0001-7188-673X"
 version: 1.0.0
+doi: 10.5281/zenodo.24423045
+date-released: "2026-11-21"
 repository-code: "https://github.com/marcelbtec/nilpotent-tridiagonal"
 license:
   - Apache-2.0

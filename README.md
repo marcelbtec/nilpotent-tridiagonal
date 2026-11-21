@@ -1,5 +1,7 @@
 # Nilpotent tridiagonal matrices with entries in {−1, 0, 1}: proof, Lean formalisation and computations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24423045.svg)](https://doi.org/10.5281/zenodo.24423045) [![check](https://github.com/marcelbtec/nilpotent-tridiagonal/actions/workflows/check.yml/badge.svg)](https://github.com/marcelbtec/nilpotent-tridiagonal/actions/workflows/check.yml)
+
 This repository accompanies the paper *Nilpotent tridiagonal matrices with entries in {−1, 0, 1}* by M. Blattner (2026). It contains the proof of the classification, a formalisation in Lean 4 with Mathlib, and the programs that check the remaining statements of the paper by exact computation. The paper continues *Nilpotent skew-symmetric tridiagonal Bohemian matrices: a proof of Corless's conjecture*, [arXiv:2611.25266](https://arxiv.org/abs/2611.25266), whose formalisation is at [marcelbtec/corless-nilpotent](https://github.com/marcelbtec/corless-nilpotent).
 
 **Setting.** An n × n tridiagonal matrix M has diagonal entries d₁, …, dₙ and off-diagonal entries aₖ (above the diagonal) and cₖ (below). Its characteristic polynomial depends on the off-diagonal entries only through the products bₖ = aₖcₖ. Let 𝒩ₙ be the set of the pairs (d, b) ∈ {−1, 0, 1}ⁿ × {1, −1}ⁿ⁻¹ whose matrices are nilpotent. For a pair p = (d, b) of size h and signs ε, δ = ±1, the *odd fold* and the *even fold* of p are the pairs of sizes 2h + 1 and 2h
@@ -82,4 +84,9 @@ The code in `lean/` and `computations/` is licensed under the Apache License 2.0
 
 ## Citation
 
-See `CITATION.cff`.
+See `CITATION.cff`. Each release is archived on Zenodo.
+
+- All versions: [doi:10.5281/zenodo.24423045](https://doi.org/10.5281/zenodo.24423045)
+- Version 1.0.0: [doi:10.5281/zenodo.24423046](https://doi.org/10.5281/zenodo.24423046)
+
+> Blattner, M. (2026). *Nilpotent tridiagonal matrices with entries in {−1, 0, 1}: proof, Lean formalisation and computations* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24423045
