@@ -190,7 +190,7 @@ def family(n, pop=None, signs=(1, -1)):
     return out
 ok = True
 for n in range(2, 65):
-    (r, s), = family(n, None, (1,))                      # reference fold, all signs +1
+    (r, s), = family(n, None, (1,))                      # the fold with all signs +1
     for (d, b) in family(n, (0, 1, -1)):
         for k in range(1, n + 1):                         # relation 1
             kk = n + 1 - k
@@ -201,7 +201,7 @@ for n in range(2, 65):
             if k < kk: ok &= b[k - 1] * b[kk - 1] == s[k - 1] * s[kk - 1]
             if k == kk: ok &= b[k - 1] == s[k - 1]
         ok &= all((x - y) % 2 == 0 for x, y in zip(d, r))
-report("P8", ok, "Section 3.1: every nilpotent pair in the class satisfies relations 1 and 2 against the reference fold, n <= 64")
+report("P8", ok, "Section 3.1: every nilpotent pair agrees with the fold with all signs +1 in d_k + d_(n+1-k) modulo 4 and in b_k b_(n-k), n <= 64")
 ok = True
 for n in range(1, 130):
     for (d, b) in family(n):

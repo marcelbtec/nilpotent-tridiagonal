@@ -91,6 +91,6 @@
    "inputRev": "v4.36.0",
    "inherited": true,
    "configFile": "lakefile.toml"}],
- "name": "CorlessNilpotent",
+ "name": "NilpotentTridiagonal",
  "lakeDir": ".lake",
  "fixedToolchain": false}
