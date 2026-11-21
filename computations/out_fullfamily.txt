@@ -1,0 +1,22 @@
+n =  1: polynomials        1, largest finite valuation 0, floor(log2 n) = 0, ok   e.g. None
+n =  2: polynomials        6, largest finite valuation 1, floor(log2 n) = 1, ok   e.g. (0, 2, 1)
+n =  3: polynomials        7, largest finite valuation 1, floor(log2 n) = 1, ok   e.g. (0, -2, 0, 1)
+n =  4: polynomials       36, largest finite valuation 2, floor(log2 n) = 2, ok   e.g. (4, 0, -4, 0, 1)
+n =  5: polynomials      160, largest finite valuation 2, floor(log2 n) = 2, ok   e.g. (0, 4, -8, 8, -4, 1)
+n =  6: polynomials      323, largest finite valuation 2, floor(log2 n) = 2, ok   e.g. (0, 0, 0, 0, 4, 4, 1)
+n =  7: polynomials      967, largest finite valuation 3, floor(log2 n) = 2, EXCEEDS   e.g. (0, -8, 0, 0, 0, 0, 0, 1)
+n =  8: polynomials     1993, largest finite valuation 3, floor(log2 n) = 3, ok   e.g. (16, 0, 0, 0, 8, 0, 0, 0, 1)
+n =  9: polynomials     7709, largest finite valuation 4, floor(log2 n) = 3, EXCEEDS   e.g. (0, -16, 0, 0, 0, 0, 0, 0, 0, 1)
+n = 10: polynomials    35685, largest finite valuation 4, floor(log2 n) = 3, EXCEEDS   e.g. (0, 0, -16, 0, 0, 0, 0, 0, 0, 0, 1)
+n = 11: polynomials   197302, largest finite valuation 4, floor(log2 n) = 3, EXCEEDS   e.g. (0, 0, 0, -16, 0, 0, 0, 0, 0, 0, 0, 1)
+n = 12: polynomials   405435, largest finite valuation 4, floor(log2 n) = 3, EXCEEDS   e.g. (0, 0, 0, 0, -16, 0, 0, 0, 0, 0, 0, 0, 1)
+direct enumeration, n = 1: largest finite valuation 0
+direct enumeration, n = 2: largest finite valuation 1
+direct enumeration, n = 3: largest finite valuation 1
+direct enumeration, n = 4: largest finite valuation 2
+direct enumeration, n = 5: largest finite valuation 2
+direct enumeration, n = 6: largest finite valuation 2
+direct enumeration, n = 7: largest finite valuation 3
+J(n), n = 1..12: [1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5]
+example: (lam^2 - 2)(lam^5 + 2 lam^3 + 4 lam) = lam^7 - 8 lam: True
+PASS

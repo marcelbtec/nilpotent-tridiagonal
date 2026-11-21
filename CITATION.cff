@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Nilpotent tridiagonal matrices with entries in {-1, 0, 1}: proof, Lean formalisation and computations"
+authors:
+  - family-names: Blattner
+    given-names: Marcel
+    orcid: "https://orcid.org/0009-0001-7188-673X"
+version: 1.0.0
+repository-code: "https://github.com/marcelbtec/nilpotent-tridiagonal"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: >-
+  A classification of the nilpotent tridiagonal matrices with diagonal entries
+  in {-1, 0, 1} and off-diagonal entries in {1, -1}: the pairs formed by the
+  diagonal and by the products of opposite off-diagonal entries are obtained
+  from the 1 x 1 zero matrix by two folding operations, one for each parity of
+  the size. Nilpotent pairs of size n exist exactly for n = 1 and
+  3 * 2^j - 1 <= n <= 2^(j+2) - 1, and then there are 2^floor(log2 n) of them.
+  The proof rests on a rigidity statement modulo 4. The classification, the
+  rigidity modulo 4, the admissible sizes and the count are formalised in
+  Lean 4 with Mathlib. Python and C programs check all statements of the
+  accompanying paper by exact computation.
+keywords:
+  - Bohemian matrices
+  - nilpotent matrices
+  - tridiagonal matrices
+  - continued fractions
+  - folding lemma
+  - Lean 4
+  - formal verification
+references:
+  - type: article
+    authors:
+      - family-names: Blattner
+        given-names: Marcel
+        orcid: "https://orcid.org/0009-0001-7188-673X"
+    title: "Nilpotent skew-symmetric tridiagonal Bohemian matrices: a proof of Corless's conjecture"
+    year: 2026
+    doi: 10.48550/arXiv.2611.25266
+    url: "https://arxiv.org/abs/2611.25266"
+    notes: "arXiv preprint arXiv:2611.25266 [math.CO]"

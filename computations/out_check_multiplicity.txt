@@ -1,0 +1,7 @@
+[PASS] M1: largest multiplicity of the eigenvalue 0 equals 2^v2(m+1) - 1 for every m <= 19 (all sign patterns)
+      m = 15: {1: 11904, 3: 3794, 5: 520, 7: 126, 11: 24, 13: 8, 15: 8}
+[PASS] M2: deg D_s = 1 exactly for the anti-folds (sigma, eps, eps, -rev sigma), sigma in F_(K-1); D_s = 1 + 2 eps x; K = 2, 3, 4
+[PASS] M3: anti-fold formulas for K <= 8; all 2^(K-2) polynomials 1 +- 2x^2 +- 2x^4 ... +- 2x^(2^(K-2)) occur, each twice
+[PASS] M4: m = 31: patterns with deg D_s = 0, 1, 2, 3: {0: 16, 1: 16, 2: 48, 3: 0}; deg 0 = folds, deg 1 = anti-folds; deg-2 polynomials [(1, -4, 4), (1, -2, -2), (1, -2, 2), (1, 0, -2), (1, 0, 2), (1, 2, -2), (1, 2, 2), (1, 4, 4)]
+[PASS] M4: m = 63: patterns with deg D_s = 0, 1, 2, 3: {0: 32, 1: 32, 2: 96, 3: 0}; deg 0 = folds, deg 1 = anti-folds; deg-2 polynomials [(1, -4, 4), (1, -2, -2), (1, -2, 2), (1, 0, -2), (1, 0, 2), (1, 2, -2), (1, 2, 2), (1, 4, 4)]
+all checks passed

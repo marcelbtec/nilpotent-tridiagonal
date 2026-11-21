@@ -1,0 +1,1 @@
+m=63, deg<=3:  deg 0: 32  deg 1: 32  deg 2: 96  deg 3: 0

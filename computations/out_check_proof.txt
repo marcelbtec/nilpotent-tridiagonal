@@ -1,0 +1,10 @@
+[PASS] P1: Lemma 2.1: chi(odd fold) = lam chi^2, chi(even fold) = chi^2 (2000 random integer pairs)
+[PASS] P2: Proposition 3.2, proof: resolvent entry gains eps*prod(b)*lam^-(2n+1) (odd step), -delta*prod(b)*lam^-(2n) (even step); 300 random fold chains
+[PASS] P3: Lemma 2.3 (moments): c_(2i+1) = c_(2i) + c_i for i < n and c_(2n+1) = c_(2n) + c_n + 1; 400 random diagonals, n <= 60
+[PASS] P4: Lemma 2.3 (moments): the diagonal is recovered from the moments by d_(k+1) = L(lam p_k^2); 300 random diagonals
+[PASS] P5: Lemma 2.3 (moments): the prefix sequence c_j = [j binary prefix of n] gives the fold support, nilpotent and mirror symmetric, n <= 512
+[PASS] P6: Lemma 2.4(i): A_k, B_k span the polynomials of degree < n; 200 random pairs over F_2, F_3, F_5, F_7, F_101, n <= 30
+[PASS] P7: Lemma 2.4(ii): for mirror-symmetric pairs the n orbit representatives are a basis; 200 random pairs, same fields
+[PASS] P8: Section 3.1: every nilpotent pair in the class satisfies relations 1 and 2 against the reference fold, n <= 64
+[PASS] P9: Corollary 1.2: first entry = last entry for folds of size >= 3; sizes 1, 11..., 101...1 in binary; 2^floor(log2 n) pairs; n < 130
+all checks passed

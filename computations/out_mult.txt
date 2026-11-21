@@ -1,0 +1,2 @@
+m=15:  mult 15 (deg 0): 8  mult 13 (deg 1): 8  mult 11 (deg 2): 24  mult 7 (deg 4): 126  mult 5 (deg 5): 520  mult 3 (deg 6): 3794  mult 1 (deg 7): 11904
+m=31:  mult 31 (deg 0): 16  mult 29 (deg 1): 16  mult 27 (deg 2): 48  mult 23 (deg 4): 128  mult 21 (deg 5): 16  mult 19 (deg 6): 48  mult 17 (deg 7): 32  mult 15 (deg 8): 830  mult 13 (deg 9): 2284  mult 11 (deg 10): 17598  mult 9 (deg 11): 49664  mult 7 (deg 12): 979242  mult 5 (deg 13): 13049480  mult 3 (deg 14): 196762678  mult 1 (deg 15): 862879744

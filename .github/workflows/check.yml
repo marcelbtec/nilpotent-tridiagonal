@@ -1,0 +1,36 @@
+name: check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the Lean proof (downloads the compiled Mathlib)
+        uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: lean
+      - name: Check that the main theorems use only Lean's standard axioms
+        working-directory: lean
+        run: |
+          lake env lean Axioms.lean | tee axioms.txt
+          test "$(grep -c "depends on axioms: \[propext, Classical.choice, Quot.sound\]" axioms.txt)" -eq 12
+          ! grep -q sorryAx axioms.txt
+
+  computations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numpy and sympy
+        run: python -m pip install numpy sympy
+      - name: Rerun every program
+        run: computations/run_all.sh
+      - name: The recorded outputs and data files are reproduced exactly
+        run: git diff --exit-code -- computations

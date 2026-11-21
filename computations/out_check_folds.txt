@@ -1,0 +1,14 @@
+[PASS] F1: chi(odd fold) = lam chi^2 and chi(even fold) = chi^2 for 3000 random integer pairs (d, b), n <= 12
+[PASS] F2: Liu-14 and Liu-28 are nilpotent and are iterated folds
+[PASS] F3: every iterated fold with integer diagonal is nilpotent, n <= 40
+[PASS] F4: folds with diagonal in {0,1,-1} exist exactly for n = 1, 3*2^j - 1, 3*2^j..2^(j+2) - 1; 2^floor(log2 n) gauge classes each (n <= 200)
+[PASS] F5: brute force over all (d, b) in the class, n <= 10: nilpotent set = fold family
+[PASS] F6: filtered exhaustive search, n <= 27: one diagonal support mod 2 for each n; 1386853 candidates survive mod 4 in total; nilpotent set = fold family
+[PASS] F7: rank condition R'(n): the derivative polynomials of the mirror orbits are independent over F_2, 2 <= n <= 1024
+[PASS] F8a: finite Wang-Massey criterion (Hankel minors H_1..H_n nonzero iff c_1 = 1 and c_(2i+1) = c_(2i) + c_i), n <= 6
+[PASS] F8b: mod 2 the resolvent entry of the fold support is the sum of lam^(-p) over the binary prefixes p of n, n < 400
+[PASS] F9: moments (M^j)_11 of every fold: +-1 if j+1 is a binary prefix of n, else 0; sign vectors <-> folds, n <= 40
+[PASS] F10: count of nilpotent tridiagonal {-1,0,1} matrices: brute force = formula = [1, 9, 73, 585, 4809, 39113], n = 1..6
+      formula, n = 7..16: [318921, 2599625, 21186505, 172688585, 1407508937, 11472076489, 93504641993, 762120714441, 6211758577097, 50629695599305]
+[PASS] F11: diagonal (0,-2,1,-1,2,0), all b_k = -1: nilpotent, not a fold (the classification needs the population {-1,0,1})
+all checks passed

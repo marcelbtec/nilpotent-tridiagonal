@@ -1,0 +1,30 @@
+{
+  "title": "Nilpotent tridiagonal matrices with entries in {-1, 0, 1}: proof, Lean formalisation and computations",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>A classification of the nilpotent tridiagonal matrices with diagonal entries in {-1, 0, 1} and off-diagonal entries in {1, -1}. The pairs formed by the diagonal and by the products of opposite off-diagonal entries are obtained from the 1 x 1 zero matrix by two folding operations, one for each parity of the size. Nilpotent pairs of size n exist exactly for n = 1 and 3 * 2^j - 1 &le; n &le; 2^(j+2) - 1, and then there are 2^floor(log2 n) of them. The proof rests on a rigidity statement: a pair whose characteristic polynomial is congruent to lambda^n modulo 4 is a fold of a smaller pair.</p><p>The record contains the informal proof, a formalisation in Lean 4 with Mathlib of the classification, of the rigidity modulo 4, of the admissible sizes and of the count, in which the main theorems depend only on Lean's standard axioms, and Python and C programs that check all statements of the accompanying paper by exact computation.</p><p>The record accompanies the paper \"Nilpotent tridiagonal matrices with entries in {-1, 0, 1}\" (M. Blattner, 2026), which continues arXiv:2611.25266.</p><p>License: the code (lean/, computations/ programs) is under the Apache License 2.0; the text of proof.md and the data and output files are under CC BY 4.0.</p>",
+  "creators": [
+    {
+      "name": "Blattner, Marcel",
+      "orcid": "0009-0001-7188-673X"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "Bohemian matrices",
+    "nilpotent matrices",
+    "tridiagonal matrices",
+    "continued fractions",
+    "folding lemma",
+    "Lean 4",
+    "formal verification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.2611.25266",
+      "relation": "continues",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}

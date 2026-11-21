@@ -1,0 +1,5 @@
+char poly identities (odd: lam*chi^2, even: chi^2) for 40 random integer matrices H, mirror block R H R: True
+odd fold of a generic one-block nilpotent H (non-symmetric): full index 2n+1 in 45 of 60 cases
+H3 symmetric: True  H^n = 0: True  H^(n-1) != 0: True
+H6 symmetric: True  H^n = 0: True  H^(n-1) != 0: True
+H13 symmetric: True  H^n = 0: True  H^(n-1) != 0: True

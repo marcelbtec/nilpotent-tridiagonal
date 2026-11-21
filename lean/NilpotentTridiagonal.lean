@@ -1,0 +1,15 @@
+module
+
+public import NilpotentTridiagonal.Continuant
+public import NilpotentTridiagonal.Fold
+public import NilpotentTridiagonal.ModTwo
+public import NilpotentTridiagonal.Transversality
+public import NilpotentTridiagonal.Folded
+public import NilpotentTridiagonal.Linearise
+public import NilpotentTridiagonal.Congruence
+public import NilpotentTridiagonal.Rigidity
+public import NilpotentTridiagonal.Classification
+public import NilpotentTridiagonal.Pairs
+public import NilpotentTridiagonal.Matrix
+public import NilpotentTridiagonal.Sizes
+public import NilpotentTridiagonal.Main

@@ -1,0 +1,7 @@
+[PASS] N1: identity (12) for all k; 2000 random diagonals over F_2, n <= 48
+[PASS] N2a: Lemma 2.3: exactly one nilpotent diagonal modulo 2, given by (11); all diagonals, n <= 16
+[PASS] N2b: nu_n is nilpotent and a palindrome; relations (13); first entry 1 iff n begins with 10 in binary; n < 400
+[PASS] N3: Lemma 2.4(i): W has dimension n and contains f r_(k+1) for deg f < k, 1 <= k <= n; 300 random pairs
+[PASS] N4: Theorem 1.5, proof: fold Q of the left half, linearisation modulo 4, P = Q modulo 4; all 100 pairs with chi = lam^n mod 4, n <= 9
+[PASS] N5: descent: v(lam^e q^2 - lam^(e+2h)) = v(q - lam^h) + 1 for monic q = lam^h mod 2; 3000 random q
+all checks passed

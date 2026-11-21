@@ -1,0 +1,21 @@
+n =  2  admissible      pairs with chi = lam^n mod 2:           8  nilpotent:   2  valuations: v=1: 6  largest: 1 (expected 1)  PASS
+n =  3  admissible      pairs with chi = lam^n mod 2:           4  nilpotent:   2  valuations: v=1: 2  largest: 1 (expected 1)  PASS
+n =  4  not admissible  pairs with chi = lam^n mod 2:          32  nilpotent:   0  valuations: v=1: 32  largest: 1 (expected 1)  PASS
+n =  5  admissible      pairs with chi = lam^n mod 2:         256  nilpotent:   4  valuations: v=1: 240 v=2: 12  largest: 2 (expected 2)  PASS
+n =  6  admissible      pairs with chi = lam^n mod 2:         128  nilpotent:   4  valuations: v=1: 120 v=2: 4  largest: 2 (expected 2)  PASS
+n =  7  admissible      pairs with chi = lam^n mod 2:          64  nilpotent:   4  valuations: v=1: 56 v=2: 4  largest: 2 (expected 2)  PASS
+n =  8  not admissible  pairs with chi = lam^n mod 2:         512  nilpotent:   0  valuations: v=1: 512  largest: 1 (expected 1)  PASS
+n =  9  not admissible  pairs with chi = lam^n mod 2:        4096  nilpotent:   0  valuations: v=1: 4032 v=2: 64  largest: 2 (expected 2)  PASS
+n = 10  not admissible  pairs with chi = lam^n mod 2:       32768  nilpotent:   0  valuations: v=1: 32768  largest: 1 (expected 1)  PASS
+n = 11  admissible      pairs with chi = lam^n mod 2:      262144  nilpotent:   8  valuations: v=1: 261632 v=2: 480 v=3: 24  largest: 3 (expected 3)  PASS
+n = 12  admissible      pairs with chi = lam^n mod 2:      131072  nilpotent:   8  valuations: v=1: 130816 v=2: 240 v=3: 8  largest: 3 (expected 3)  PASS
+n = 13  admissible      pairs with chi = lam^n mod 2:       65536  nilpotent:   8  valuations: v=1: 65280 v=2: 240 v=3: 8  largest: 3 (expected 3)  PASS
+n = 14  admissible      pairs with chi = lam^n mod 2:       32768  nilpotent:   8  valuations: v=1: 32640 v=2: 112 v=3: 8  largest: 3 (expected 3)  PASS
+n = 15  admissible      pairs with chi = lam^n mod 2:       16384  nilpotent:   8  valuations: v=1: 16256 v=2: 112 v=3: 8  largest: 3 (expected 3)  PASS
+n = 16  not admissible  pairs with chi = lam^n mod 2:      131072  nilpotent:   0  valuations: v=1: 131072  largest: 1 (expected 1)  PASS
+n = 17  not admissible  pairs with chi = lam^n mod 2:     1048576  nilpotent:   0  valuations: v=1: 1047552 v=2: 1024  largest: 2 (expected 2)  PASS
+n = 18  not admissible  pairs with chi = lam^n mod 2:     8388608  nilpotent:   0  valuations: v=1: 8388608  largest: 1 (expected 1)  PASS
+n = 19  not admissible  pairs with chi = lam^n mod 2:    67108864  nilpotent:   0  valuations: v=1: 67100672 v=2: 8064 v=3: 128  largest: 3 (expected 3)  PASS
+n = 20  not admissible  pairs with chi = lam^n mod 2:   536870912  nilpotent:   0  valuations: v=1: 536870912  largest: 1 (expected 1)  PASS
+n = 21  not admissible  pairs with chi = lam^n mod 2:  4294967296  nilpotent:   0  valuations: v=1: 4294901760 v=2: 65536  largest: 2 (expected 2)  PASS
+all sizes pass
