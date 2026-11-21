@@ -107,6 +107,7 @@ theorem nil_of_congr (n : ℕ) : ∀ {d b : ℕ → ℤ}, 1 ≤ n → InC d b n 
 | `NilpotentTridiagonal/Sizes.lean` | the sizes and the number of the folded pairs |
 | `NilpotentTridiagonal/Main.lean` | Theorem 1.1 for matrices, the sets 𝒩ₙ, Corollary 1.2 |
 | `Axioms.lean` | prints the axioms used by the main theorems |
+| `Examples.lean` | the main theorems applied to concrete matrices and sizes (Liu's matrix of size 6, the sizes 4 and 7) |
 
 The formalisation has about 3,000 lines. Corollary 1.4 (the number of all nilpotent tridiagonal matrices with entries in {−1, 0, 1}), Corollary 1.6 (ii) and (iii), Proposition 3.2 and Sections 4 and 5 of the paper are not formalised; they are checked by the programs in `../computations`.
 
@@ -118,10 +119,11 @@ You need [elan](https://github.com/leanprover/elan). The toolchain is `leanprove
 lake exe cache get      # download the compiled Mathlib (about 5 GB)
 lake build              # compiles the proof
 lake env lean Axioms.lean
+lake env lean Examples.lean   # no output: all examples are proved
 ```
 
 **Build.** `lake build` compiles all files with no errors and no warnings. The files use the module system, and Mathlib's standard linter set is on. The copyright-header linter is switched off in `lakefile.toml`, because it enforces a Mathlib convention.
 
-**Axioms.** The last command prints `[propext, Classical.choice, Quot.sound]` for each of the twelve main theorems. These are only Lean's standard axioms, so there is no `sorry`.
+**Axioms.** The command `lake env lean Axioms.lean` prints `[propext, Classical.choice, Quot.sound]` for each of the twelve main theorems. These are only Lean's standard axioms, so there is no `sorry`.
 
 Checked on 21 November 2026.
